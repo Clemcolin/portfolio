@@ -782,15 +782,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-started {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  float: left;
-  width: 100%;
   display: flex;
-  align-items: center;
-  min-height: 100vh;
+  flex-direction: column; /* Permet d'empiler les éléments verticalement */
+  align-items: center;    /* Centre horizontalement */
+  justify-content: center; /* Centre verticalement */
+  text-align: center;      /* Centre le texte */
+  min-height: 100vh;       /* Utilise toute la hauteur de la fenêtre */
 }
 #fh5co-started .fh5co-heading {
   margin-bottom: 0;
