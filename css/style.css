@@ -788,6 +788,9 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   float: left;
   width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
 #fh5co-started .fh5co-heading {
   margin-bottom: 0;
@@ -809,6 +812,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+  margin: 0 auto;
 }
 
 .fh5co-blog {
